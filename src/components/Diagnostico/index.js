@@ -11,13 +11,19 @@ function Diagnostico() {
           <h1>Diagnóstico</h1>
 
           <p>
-            Os meios de diaginóstico da COVID-19 são testes feitos a partir do
+            Os meios de diagnóstico da COVID-19 são testes feitos a partir do
             material de genético do indivíduo a ser testado. A maioria dos tipos
             de teste realizados para a detecção do vírus é rápido e se pode
             saber o resultado em alguns minutos, normalmente utilizados para
-            triagem de casos suspeitos. Além destes, existem testes utilizados
-            para a confirmação de testes rápidos, já que possuem uma precisão
-            maior e levam mais tempo para obtenção de resultado.
+            triagem de casos suspeitos.
+            <br />
+            Além destes, existem testes utilizados para a confirmação de testes
+            rápidos, já que possuem uma precisão maior e levam mais tempo para
+            obtenção de resultado.
+            <br />
+            Vale ressaltar também que, devido à quantidade limitada de kit para
+            testes disponíveis, uma primeira triagem é realizada com base nos
+            sintomas do indivíduo.
           </p>
 
           <hr />
@@ -70,7 +76,7 @@ function Diagnostico() {
         </div>
 
         <div id={"diagnostico-info"}>
-          <h2>Informações importates</h2>
+          <h2>Informações importantes</h2>
 
           <p>
             <u>
