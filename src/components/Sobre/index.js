@@ -51,8 +51,7 @@ function Sobre() {
             Ministério da Saúde - Sobre a COVID-19
           </a>
           <br />
-
-          <a href={"https://coronavirus.saude.gov.br/"} target={"blank"}>
+          <a href={"https://veja.abril.com.br/noticias-sobre/coronavirus/"} target={"blank"}>
             Onze países passam ilesos pela pandemia de Covid-19; entenda como - Página reportagem Veja
           </a>
           <br />
