@@ -7,7 +7,8 @@ function Diagnostico() {
   return (
     <>
       <Header />
-      <div style={{ paddingTop: "15px", padding: "12px" }}>
+        {/*<div style={{ paddingTop: "15px", padding: "12px" }}>*/}
+        <div>
         {/*Introducao - Diagnostico*/}
         <div id={"diagnostico-geral"}>
           <div class="card mb-3">

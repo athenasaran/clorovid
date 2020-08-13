@@ -4,7 +4,8 @@ import Footer from "../Footer";
 
 function Duvidas() {
   return (
-    <div style={{ paddingTop: "50px" }}>
+    /*<div style={{ paddingTop: "15px", padding: "12px" }}>*/
+    <div>
       <Header />
       <p>Duvidas</p>
       <Footer />

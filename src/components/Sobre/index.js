@@ -6,7 +6,8 @@ function Sobre() {
   return (
     <>
       <Header />
-      <div style={{ paddingTop: "15px", padding: "12px" }}>
+      {/*<div style={{ paddingTop: "15px", padding: "12px" }}>*/}
+      <div>
         <h1>Sobre a doença</h1>
         <div id={"o-que-e-covid"}>
           <h2>O que é COVID-19</h2>

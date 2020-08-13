@@ -9,7 +9,8 @@ import objetos from "../../assets/img/objetos.jpg";
 import aglomeracao from "../../assets/img/aglomeracao.jpg";
 function Prevencao() {
   return (
-    <div style={{ paddingTop: "50px" }}>
+    /*<div style={{ paddingTop: "15px", padding: "12px" }}>*/
+    <div>
       <Header />
       <h4> Sempre:</h4>
       <br></br>
