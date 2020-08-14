@@ -1,10 +1,36 @@
-.card-header{
-margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
-};
-
-.Link {
-  color: #01b552;
+ul.list-group li.list-group-item {
+  border: none;
+  border-top: 1px dashed #e0e0e0;
+  padding-left: 0;
+  border-radius: 140px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+ /* added animation property to show the character one at a time*/
+  animation: type 8s steps(60, end);
 }
+
+.list-group-flush > .list-group-item {
+  border-width: 0 0 1px;
+}
+li.list-group-item a{
+  color:#01b552;
+  margin-left: 1%;
+} 
+h3{
+  margin:1%;
+}
+span{
+  color:#01b552;
+}
+.accordion {
+  padding: 10px;
+}
+
+
+@keyframes type{ 
+ from { 
+      width: 0; 
+      } 
+  }
