@@ -20,7 +20,7 @@ function Header() {
       style={{ background: "var(--black)" }}
     >
       <a className="navbar-brand" href="/">
-        <img src={logo} width="70" height="70" alt="" />
+        <img src={logo} width="400" height="70" alt="clorovid" />
       </a>
       <button
         className="navbar-toggler"
