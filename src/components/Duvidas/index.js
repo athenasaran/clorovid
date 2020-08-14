@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import styled from "styled-components";
-import plus from "../../assets/img/chevron-down.png"
 
 import "./duvidas.css";
 
