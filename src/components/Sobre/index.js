@@ -2,14 +2,17 @@ import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import "./sobre.css";
-import sobreInformativo from "../../assets/img/sobreInformativo.jpg";
+import sobreInformativo from "../../assets/img/sobreInformativo.png";
 
 function Sobre() {
   return (
     <>
       <Header />
-        <h1> Sobre a doença</h1>
-       
+        <div class = "img-sobre">
+          <h1> Sobre a doença</h1>
+          <img src={sobreInformativo}/>  
+        </div>
+        
           <div id={"o-que-e-covid"}>
           <hr />
             <h2>O que é COVID-19</h2>

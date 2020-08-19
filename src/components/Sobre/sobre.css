@@ -39,3 +39,9 @@ p,a {
         width: 100%;
     }
 }
+.img-sobre img {
+  width: 100px;
+  height: 100px ;
+  margin-top: 10px;
+}
+
