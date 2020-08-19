@@ -3,19 +3,23 @@ import Header from "../Header";
 import Footer from "../Footer";
 import "./sobre.css";
 import sobreInformativo from "../../assets/img/sobreInformativo.png";
+import sobreDoenca from "../../assets/img/sobreDoenca.png";
+import covidvirus from "../../assets/img/covidvirus.png"; 
 
 function Sobre() {
   return (
     <>
       <Header />
         <div class = "img-sobre">
-          <h1> Sobre a doença</h1>
-          <img src={sobreInformativo}/>  
+          <h1> Sobre a doença <img src={sobreDoenca} alt = "iconeInformativo" />  </h1>
+           
         </div>
         
           <div id={"o-que-e-covid"}>
           <hr />
-            <h2>O que é COVID-19</h2>
+          <div class = "img-oque-e">
+            <h2>O que é COVID-19 <img src={sobreInformativo}  alt = "iconeInformativo" /> </h2>
+          </div>  
 
             <div class = "column">
               <p>
@@ -41,7 +45,11 @@ function Sobre() {
 
           <div id={"quantidade-paises-com-covid"}>
           <hr />
-            <h2>Quantidade de países com histórico de contaminção</h2>
+
+          <div class = "img-covid">
+            <h2>Quantidade de países com histórico de contaminção  <img src={covidvirus} alt = "iconeCovid" />  </h2>
+          </div>
+              
             <div class = "column">
               <p>
                 Desde que foi identificada em dezembro de 2019 na China, a Covid-19 já infectou mais de 16,5 milhões 

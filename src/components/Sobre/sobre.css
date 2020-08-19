@@ -1,6 +1,7 @@
 h1 { 
-    float: left;
-    color: rgb(0, 138, 57);
+    text-align:  left;
+    margin-left: 2%;
+    color: black;
     padding-top: 40px;
     font-size: 40px; 
     font-family: 'Raleway', sans-serif;
@@ -40,8 +41,16 @@ p,a {
     }
 }
 .img-sobre img {
-  width: 100px;
-  height: 100px ;
-  margin-top: 10px;
+  width: 50px;
+  height: 50px ;
 }
 
+.img-oque-e img{
+    width: 75px;
+    height: 75px ;  
+}
+
+.img-covid img{
+    width: 75px;
+    height: 75px ;  
+}
