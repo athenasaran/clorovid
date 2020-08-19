@@ -1,0 +1,41 @@
+h1 { 
+    float: left;
+    color: rgb(0, 138, 57);
+    padding-top: 40px;
+    font-size: 40px; 
+    font-family: 'Raleway', sans-serif;
+}
+
+h2{
+    padding-top: 10px ;
+    text-align:  center;
+}
+
+h3{
+    text-align: left;
+}
+
+p,a {
+    text-align: justify; 
+    font-family: verdana;
+    font-size: 20px;
+}
+
+#o-que-e-covid {
+   border-width: 5px;
+  }
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
