@@ -19,7 +19,7 @@ function Header() {
       className="navbar navbar-expand-lg navbar-light"
       style={{ background: "var(--black)" }}
     >
-      <a className="navbar-brand" href="/">
+      <a className="navbar-brand" href="/sobre">
         <img src={logo} width="400" height="70" alt="clorovid" />
       </a>
       <button
