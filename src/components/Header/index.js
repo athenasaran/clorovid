@@ -17,10 +17,10 @@ function Header() {
   -->*/
     <nav
       className="navbar navbar-expand-lg navbar-light"
-      style={{ background: "var(--black)" }}
+      style={{ background: "var(.bg-light)" }}
     >
       <a className="navbar-brand" href="/sobre">
-        <img src={logo} width="400" height="70" alt="clorovid" />
+        <img src={logo} width="250" height="50" alt="clorovid" />
       </a>
       <button
         className="navbar-toggler"
@@ -34,7 +34,7 @@ function Header() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div className="navbar-nav">
+        <div className="navbar-nav ml-auto">
           <a className="nav-link" href="sobre">
             Sobre
           </a>
