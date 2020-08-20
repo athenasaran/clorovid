@@ -13,3 +13,9 @@ footer{
 footer p{
   text-align: center;
 }
+a{
+  color: #05bb5a;
+}
+a:hover{
+  color: #212529;
+}
