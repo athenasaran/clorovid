@@ -54,3 +54,7 @@ p,a {
     width: 75px;
     height: 75px ;  
 }
+
+.container-fluid{ 
+    background-color: #dcdcdc;
+}
