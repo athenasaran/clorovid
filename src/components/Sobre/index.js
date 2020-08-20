@@ -43,10 +43,7 @@ function Sobre() {
                 </p>
               </div>
             </div>
-
             <div id={"quantidade-paises-com-covid"}>
-            <hr />
-
             <div class = "img-covid">
               <h2>Quantidade de países com histórico de contaminção  <img src={covidvirus} alt = "iconeCovid" />  </h2>
             </div>

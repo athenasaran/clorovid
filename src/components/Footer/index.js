@@ -4,7 +4,7 @@ import { FooterBase } from "./styles";
 function Footer() {
   return (
     <FooterBase>
-      <p>Orgulhosamente criado por Athena, João, Jeniffer e Leonardo</p>
+      <p style = { { textAlign: "center"}} >Orgulhosamente criado por Athena, João, Jeniffer e Leonardo </p>
     </FooterBase>
   );
 }
