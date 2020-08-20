@@ -1,11 +1,11 @@
 import React from "react";
-import { FooterBase } from "./styles";
+import "./styles.css";
 
 function Footer() {
   return (
-    <FooterBase>
-      <p style = { { textAlign: "center"}} >Orgulhosamente criado por Athena, João, Jeniffer e Leonardo </p>
-    </FooterBase>
+    <footer>
+      <p>Orgulhosamente criado por Athena, João, Jeniffer e Leonardo </p>
+    </footer>
   );
 }
 
